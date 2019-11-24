@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lingo</title>
+        <link href="./resources/CSS/main.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="jumbotron" id="header">
+            <div class="row">
+                <nav class="container">
+                    <p class="col-sm-3 text-left" id="sub-heading"><a href="./HTML/About.html" id="sub-heading">About</a></p>
+                    <h1 class="col-sm-6 text-center" id="heading">INTELLITALK</h1>
+                    <p class="col-sm-3 text-right" id="sub-heading"><a href="./HTML/contact.html" id="sub-heading">Contact</a></p>
+                </nav>
+            </div>
+        </header>
+        <section class="jumbotron" id="border">
+            <div class="container">
+                <div class="col-sm-6" id="page">
+                    <div class="row">
+                        <p id="explanation">Mutually learn a language by video chating with a native speaker of your second language, who's second language is your first</p>
+                        <img src="resources/people.png" id="people-picture">
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5" id="signIn">
+                    <h2 id="signUpLabel">Get Started Now</h1>
+                    <br>
+                    <br>
+                    <form action="./js/server.js" method="get">
+                        <label for="name" id="label">Name: </label>
+                        <input type="text" name="name" id="input">
+                        <br>
+                        <br>
+                        <label for="firstLanguage" id="label">First Language: </label>
+                        <select name="firstLanguage" id="input">
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="secondLanguage" id="label">Second Language: </label>
+                        <select name="secondLanguage" id="input">
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="submit" value="chat now!" id="submit" onclick="submit()">
+                    </form>
+                </div>
+            </div>       
+        </section>
+        <footer class="jumbotron" id="footer">
+            <div class="row">
+                <p class="col-sm-12 text-center" id="footer-text">Founded by Jonah Ezekiel, Kai Choi, William Tsai, Clark Zhou, and Lawson Graham 2019</p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/web.js"></script>
+    </body>
+</html>
