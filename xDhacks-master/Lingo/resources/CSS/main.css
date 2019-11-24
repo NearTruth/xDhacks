@@ -1,9 +1,9 @@
 #header {
-    background-color: gray;
+    background-color: black;
     margin: 0px;
 }
 #footer {
-    background-color: gray;
+    background-color: #49A078;
     margin: 0px;
 }
 #footer-text {
@@ -15,7 +15,7 @@
     vertical-align: center;
 }
 #page {
-    background-color: black;
+    background-color: #33658A;
     margin: 0px;
 }
 #label {
@@ -25,12 +25,12 @@
     font-size: 50px;
 }
 #signIn {
-    background-color: black;
+    background-color: #33658A;
     margin: 46px;
     vertical-align: center;
 }
 #border {
-    background-color: black;
+    background-color: #33658A;
     margin: 0px;
 }
 #people-picture {
